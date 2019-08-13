@@ -1,14 +1,12 @@
-# Development Environement
+# Development Environment
 
-The Develepment Environement is about the collection of tools and processes all the developers should do in order to work in a collaborative work place.
+The Develepment Environment is about the collection of tools and processes all the developers should do in order to work in a collaborative work place.
 
-As part of the development environement all the developers should have and/or know:
+As part of the development environment all the developers should have and/or know:
 
   - A basic knowledge on operating systems
   - A programing language
   - Version control system 
-  - A package manager
-  - Environement control system
   - IDE (Integrated Development Environment)
 
 # Basic knowledge of operating systems
@@ -74,6 +72,46 @@ from here you can start basic operations such as:
     The some of A plus B is 11
 
 # Version control system
+A version control system is a tool that alows you to save your code in a way that you can restore previous versions when needed. Sometimes we mess up our codes and we would need to restore a version where things were correct. this is what the version control system enable.
+
+There are many different version control systems but GIT is the most used one and it provides a lot of smart funcionatilites. 
+You can learn about git at the link below
+https://git-scm.com/
+
+You can use a version control system local and remote, in order to have a remote version of your code you have to create a REPOSITORY on github server. 
+http://github.com
+
+Since you have your account the steps of creating a Repository and upload your code go as follow:
+
+    On your machine
+    1 - Go into the directory containing the project.
+    2 - Type "git init" <enter>
+    3 - Type "git add ." <enter> to add all of the relevant files.
+    4 - Type "git commit -m 'first commit' "
+
+Now that you have a local repository, it is time to connect to the github server
+
+    On github.com
+    1 - Go to github.com
+    2 - Log in to your account.
+    3 - Click the new repository button in the top-right. You’ll have an option there to initialize the repository with a README file, but I don’t.
+    4 - Click the “Create repository” button.
+    
+Now you have a repository created on line and you need to upload the files
+
+    1 - Go into the directory containing the project.
+    2 - git remote add origin https://github.com/<YOUR GITHUB USERNAME>/< YOUR NEW_REPO>
+    3 - git push -u origin master
+
+That's it, you have now your code saved on github!
+
+# IDE (Integrated Development Environment)
+
+A IDE is a place where you can edit your software, you can create your application structure with folders and files. IDE's provide sintaxe highlight and code completeness capabilities which allows you to produce code fast.
+
+There are many paid and free options, for python Sublime 3 is a good one
+You can know more about it by reading the documentation of sublime on the link below
+https://www.sublimetext.com/
 
 
 
