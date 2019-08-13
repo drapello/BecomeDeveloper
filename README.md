@@ -5,7 +5,7 @@ The Develepment Environment is about the collection of tools and processes all t
 As part of the development environment all the developers should have and/or know:
 
   - A basic knowledge on operating systems
-  - A programing language
+  - A programming language
   - Version control system 
   - IDE (Integrated Development Environment)
 
